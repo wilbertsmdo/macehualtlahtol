@@ -1,0 +1,66 @@
+[
+  {
+    "nahuatl": "tlapannextiliztli",
+    "spanish": "presentación",
+    "note": "not 'revelación'",
+    "source": "Crispin_Carlos",
+    "row": 14,
+    "verified": true
+  },
+  {
+    "nahuatl": "xihuitl",
+    "spanish": "año",
+    "note": "full year unit — do not decompose into numeric components",
+    "source": "Crispin_Carlos",
+    "row": 12,
+    "verified": true
+  },
+  {
+    "nahuatl": "xochitlapohualiztli",
+    "spanish": "literatura",
+    "note": "compound: xochitl (flower/beauty) + tlapohualiztli (act of reading/counting) — poetic term for literature, not 'floración de palabras'",
+    "source": "Crispin_Carlos",
+    "row": 18,
+    "verified": true
+  },
+  {
+    "nahuatl": "rohuenteh",
+    "spanish": "duende / ser sobrenatural",
+    "note": "supernatural being from Nahua cosmology, not a generic 'señor'",
+    "source": "Crispin_Carlos",
+    "row": 20,
+    "verified": true
+  },
+  {
+    "nahuatl": "chamaniz",
+    "spanish": "brotar / germinar",
+    "note": "not 'revivir' — refers to sprouting/emerging, not resurrection",
+    "source": "Crispin_Carlos",
+    "row": 22,
+    "verified": true
+  },
+  {
+    "nahuatl": "tlazcamatiliztli",
+    "spanish": "agradecimiento",
+    "note": "gratitude/thanks — section header word",
+    "source": "Crispin_Carlos",
+    "row": 4,
+    "verified": true
+  },
+  {
+    "nahuatl": "tlapohualliztli",
+    "spanish": "lectura / acto de leer",
+    "note": "act of reading or counting — from pohua (to read/count)",
+    "source": "Crispin_Carlos",
+    "row": null,
+    "verified": true
+  },
+  {
+    "nahuatl": "macehualtzitzintin",
+    "spanish": "macehualtin / gente del pueblo",
+    "note": "indigenous people / people of the community",
+    "source": "Crispin_Carlos",
+    "row": 7,
+    "verified": true
+  }
+]

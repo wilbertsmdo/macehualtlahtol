@@ -1,0 +1,1412 @@
+[
+  {
+    "nahuatl": "Nimitztlahpaloz.",
+    "english": "I greet you.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Piyali.",
+    "english": "Hello.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "¿Hueliz nipano?",
+    "english": "May I come in?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Quena. Xipano.",
+    "english": "Yes. Come in.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tlazcamati.",
+    "english": "Thank you.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Axtlen.",
+    "english": "You're welcome.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "¿Queniuhqui moillia agua ica nahuatl?",
+    "english": "How do you say water in Nahuatl?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Moillia Atl.",
+    "english": "It is said Atl.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Timoittazceh.",
+    "english": "We will see each other. / Goodbye.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Moztlayoc.",
+    "english": "See you tomorrow.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Teipayoc.",
+    "english": "See you afterwards.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Ya niyauh.",
+    "english": "I am going.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Neca nionyauh.",
+    "english": "Now I am going.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Neca tionyohuih.",
+    "english": "Now you are going.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tiyohuihya.",
+    "english": "We are going.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Oncah.",
+    "english": "There is. / There are.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Oncac.",
+    "english": "There was. / There were.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Oncaz.",
+    "english": "There will be.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Niitztoc.",
+    "english": "I am. / I am here.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tiitztoc.",
+    "english": "You are. / You are here.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Itztoc.",
+    "english": "He/She is. / He/She is here.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tiitztoqueh.",
+    "english": "We are. / We are here.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Itztoqueh.",
+    "english": "They are. / They are here.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Eltoc.",
+    "english": "It is. (inanimate)",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Eltoya.",
+    "english": "It was. (inanimate)",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Eltoyah.",
+    "english": "They were. (inanimate)",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Niyaz.",
+    "english": "I will go.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tiyaz.",
+    "english": "You will go.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Yaz.",
+    "english": "He/She will go.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tiyazceh.",
+    "english": "We will go.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Inyazceh.",
+    "english": "They will go.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Yazquia.",
+    "english": "He/She would go.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Niyohuiyaya.",
+    "english": "I was going.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Yohuiyaya.",
+    "english": "He/She was going.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Nitequiti.",
+    "english": "I work.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Titequiti.",
+    "english": "You work.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tequiti.",
+    "english": "He/She works.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Titequitih.",
+    "english": "We work.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tequitih.",
+    "english": "They work.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Nichoca.",
+    "english": "I cry.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Timaltia.",
+    "english": "You bathe.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Motlaloa.",
+    "english": "He/She runs.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Ximoquetza.",
+    "english": "Stand up. (singular command)",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Ximoquetzacan.",
+    "english": "Stand up. (plural command)",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Xinehnemi.",
+    "english": "Walk. (singular command)",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Xinehnemican.",
+    "english": "Walk. (plural command)",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Ma nitlacua.",
+    "english": "Let me eat.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Ma tlacua.",
+    "english": "Let him/her eat.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Ma ticholocan.",
+    "english": "Let us run.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tohhuantin titlamachtiah caltlamachtiloyan.",
+    "english": "We study at school.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "¿Quezqui tlicolli nicpiya na?",
+    "english": "How many pencils do I have?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Ta ticpiya nahui tlicolli.",
+    "english": "You have four pencils.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Na nicpiya ce tlicolli.",
+    "english": "I have one pencil.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Ya quipiya chicome tlicolli.",
+    "english": "He/She has seven pencils.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tohhuantin ticpiyah chicome tlicolli.",
+    "english": "We have seven pencils.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Nitlacatl.",
+    "english": "I am a person.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Titlacatl.",
+    "english": "You are a person.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tlacatl.",
+    "english": "He/She is a person.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Titlacameh.",
+    "english": "We are people.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Tlacameh.",
+    "english": "They are people.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Pan acomolli neci michimeh.",
+    "english": "At the well there are fish.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "Pan ce calli choca ce conetl.",
+    "english": "In a house a child cries.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "appearance",
+    "english": "size",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "altepemeh",
+    "english": "pueblos",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "histories",
+    "english": "especially annals",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "works",
+    "english": "songs and plays",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "students",
+    "english": "to participate in the learning and teaching of their language, and to participate in academic spaces in their language through the reading and analysis of texts written by their ancestors.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "length",
+    "english": "is not always marked in these lessons, but the IDIEZ monolingual dictionary Tlahtolxitlauhcayotl of Chicontepec Nahuatl (Veracruz), and the IDIEZ Modern Huastecan to English Vocabulary, mark long vowels with a macron or overbar, as in  ācatl, 'reed' or cuatōchin, 'rabbit'.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "see",
+    "english": "wahtl’, respectively.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "kah",
+    "english": "ki’ and ‘ko-pahl-li’.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "vowel",
+    "english": "length is not always marked in these lessons, but the IDIEZ monolingual dictionary Tlahtolxitlauhcayotl of Chicontepec Nahuatl (Veracruz), and the IDIEZ Modern Huastecan to English Vocabulary, mark long vowels with a macron or overbar, as in  ācatl, 'reed' or cuatōchin, 'rabbit'.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cihuatl",
+    "english": "‘woman’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "pronounced",
+    "english": "in English",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "caqui",
+    "english": "‘hear’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "copalli",
+    "english": "‘copal incense’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quen",
+    "english": "‘how’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quiza",
+    "english": "‘emerge’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "zampa",
+    "english": "‘again’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "zoquitl",
+    "english": "‘mud’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ehecatl",
+    "english": "'wind'",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ahahuilli",
+    "english": "'toy'",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ohtli",
+    "english": "‘road",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quichihuah",
+    "english": "‘they do it’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "digraphs",
+    "english": "two letters used together to represent a single sound",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "single",
+    "english": "syllable word, it is a voiced consonant, as in nochi ‘all, every’, quinamaca ‘she sells it’, and zan ‘only, just’.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "multi",
+    "english": "syllable word, it becomes neutralized and sounds like H, as in teipan ‘later’.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cal",
+    "english": "li), rhyming with the first two syllables of 'lol-li-pop'.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "second",
+    "english": "to-last) syllable of a Nahuatl word.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ridge",
+    "english": "the ridge behind the top front teeth",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tzictli",
+    "english": "'chewing gum'",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "chiucnahui",
+    "english": "‘nine’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quitzaucqueh",
+    "english": "‘they closed it’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "xochitl",
+    "english": "'flower'",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "llave",
+    "english": "'key'",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "calle",
+    "english": "'street'",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "calli",
+    "english": "'house'",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "separately",
+    "english": "cal-li",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "words",
+    "english": "with no accent",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "penultimate",
+    "english": "second-to-last",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nimitztlahpaloz",
+    "english": "tlacatl \ncihuatl \nUnit 1 Timoixmatizceh | We will meet each other \n1.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ways",
+    "english": "e.g.\nvisiting, meeting",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "gathering",
+    "english": "men to men only",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "wSOE",
+    "english": "Delia and Catalina",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nicpiya",
+    "english": "ce tlahtlaniliztli.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "moihcuiloa",
+    "english": "atl.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "choca",
+    "english": "tequiti   maltia   motlaloa nichoca  nitequiti  _____________ _____________ tichoca  _____________ timaltia  _____________ choca  _____________ _____________ _____________ tichocah  _____________ _____________ _____________ inchocah  _____________ _____________ _____________ chocah  _____________ _____________ motlaloah  E) See the example below and write five sentences using the new vocabulary provided.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "verbs",
+    "english": "verbs that do not have a specific object",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "suffix",
+    "english": "meh\tis\tadded.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "moquetza",
+    "english": "b) nehnemi c) huitoni d) mocehuia \nD) See the example below.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nehnemi",
+    "english": "Xinehnemi.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "huitoni",
+    "english": "Xihuitoni.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "mocehuia",
+    "english": "Ximocehui.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "plural",
+    "english": "see examples 4 below",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "maltia",
+    "english": "Ma nitlacua.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "choloa",
+    "english": "atli   huitoni     mihcuenia Ma nicholo.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tWPNDxKnBPE",
+    "english": "yonce   chicuace   mahtlactli huan ce      caxtolli huan ce  ce   chicome   mahtlactli huan ome      caxtolli huan ome  ome   chicueyi   mahtlactli huan eyi      caxtolli huan eyi  eyi   chiucnahui  mahtlactli huan nahui     caxtolli huan nahui  nahui   mahtlactli caxtolli       cempohualli  macuilli   Numbers:\t20\t–\t100\t\t20 cempohualli    40 ompohualli    60 epohualli    80 nauhpohualli    100 macuilpohualli  B) Complete the remaining examples.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ahuacatl",
+    "english": "camohtli cuahuitl mizton chichi tlicolli \nC) New vocabulary.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "amatl",
+    "english": "noamauh, moamauh, iamauh, toamahuan, inmoamahuan, ininamahuan 7.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "adding",
+    "english": "huan.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cihua",
+    "english": "tl amox-tli tlicol-li cuatoch(i)-n chichi \n Ta  Ti mo Ø, uh, hui Ya  Ø i  Tohhuantin  Ti to  Inmohhuantin  In inmo huan Inihhuantin  Ø inin         D) See examples 1 and 5 and complete the sequence for the remaining nouns.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "noun",
+    "english": "e.g., my book",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nopitzo",
+    "english": "‘my pig",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "mocihuauh",
+    "english": "‘your wife’",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nouns",
+    "english": "deities, people, and animals",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cafenctic",
+    "english": "yayahuic chichiltic achilcoz chichilticcoztic tenextic \nxoxoctic pilazulticatzin tzictic camohtic cuahuencho chipahuac \nalaxox chilli etl cuaxilotl tomatl calli cocho \ncafenctic \n10.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "pantalon",
+    "english": "cotomitl \nmomachtihquetl tlamachtihquetl tepahtihquetl tlapahquetl tlacualchiuhquetl \nB) See the images of pantalon and cotomitl2, then practice questions about clothes with a partner.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ending",
+    "english": "mitl.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "with",
+    "english": "your information.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "echcapantzin",
+    "english": "zancualli huahcapantic \n1.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "piltohtomactzin",
+    "english": "azacatic \nB) See the example for echcapantzin and complete the exercise for zancualli and\nhuahcapantic.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tzoncalli",
+    "english": "huehueyac tzoncalli cototztzin tzoncalli chihchinohtic \nMaribel Anna Bertha Pedro Tomas \n4.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "eating",
+    "english": "in general).",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "specific",
+    "english": "eating an orange vs. eating in general",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "amati.",
+    "english": "Nicamati, ticamati, ticamatih (ni-c-amati-Ø).",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ihxitia.",
+    "english": "Niquihxitia, tiquihxitia, tiquihxitiah (ti-qu-ihxitia-Ø).",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "huica.",
+    "english": "Quihuica, inquihuica, quihuicah (Ø-qui-huica-h).",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "amati",
+    "english": "pohua cua ihcuiloa nicamati  ________________ ________________ ________________ ticamati  ________________ ________________ ________________ quiamati ________________ ________________ ________________ ticamatih ________________ ________________ ________________ inquiamatih ________________ ________________ ________________ quiamatih ________________ ________________ ________________  B) See example 1 and based on the structure in the table above translate the remaining sentences into Nahuatl.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "third",
+    "english": "person singular (he, she or it) can be written c-, qu-, or qui-, depending on what precedes or follows it (according to Spanish orthography):  1.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "qui",
+    "english": "is used after the subject prefixes Ø- and in-, regardless of what follows.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "singular",
+    "english": "he, she or it",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ticamatih",
+    "english": "ni-c-amati-Ø",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tiquihxitiah",
+    "english": "ti-qu-ihxitia-Ø",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quihuicah",
+    "english": "Ø-qui-huica-h",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "school.",
+    "english": "itta",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "book.",
+    "english": "pohua",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "flower.",
+    "english": "amati",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "bed.",
+    "english": "ehua",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "class.",
+    "english": "amati",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "verbs.",
+    "english": "There are only four verbs in this class: mama, nahua, pa, cua.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tense",
+    "english": "tlen pano",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "either",
+    "english": "z for singular verbs  or -zceh for plural verbs.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "pohua",
+    "english": "Nicamati nitlapohuaz.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cua",
+    "english": "Nicamati  niccuaz mancoh.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "mahuiltia",
+    "english": "Ticamatih  timahuiltizceh.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ahqui",
+    "english": "Ticamatih  tiahquizceh.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tequiti",
+    "english": "Nicamati  nitequitiz.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "camati",
+    "english": "ni___________z.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quiamati",
+    "english": "maltiz ichan.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "aquixtia",
+    "english": "Axnicamati niaquixtiz.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tlachicuenia",
+    "english": "Axnicamati nitlachicueniz.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tici",
+    "english": "Axnicamati niticiz.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "huan",
+    "english": "ta?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "pampa",
+    "english": "ohuih nopa tequitl.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tiquixmatizceh",
+    "english": "ce acahya | Family: Introducing someone  We will introduce someone such as our family members, friends, and acquaintances.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cualtitoc.",
+    "english": "Quemman ticnequiz ma nimitzpalehui ica                  ce motequiuh, xinechilli.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "fried.",
+    "english": "notequixpoh/nohuampoh | My friend/classmates/co-worker",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tlachihualizt",
+    "english": "li 1 \nhuan 2…………………………….",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "pil",
+    "english": "y su uso con el prefijo \nposesivo……………………………59 \n3.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "clase",
+    "english": "de verbo 1 y 2 y en los tres tiempos: presente, pasado y \nfuturo.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ahci",
+    "english": "Para los verbos de clase 1 el tiempo presente singular se mantiene la raíz del verbo y para \nel plural se agrega una -h.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "maca",
+    "english": "Presente -h Pasado -c/queh Futuro -z/zceh \nNicmaca Nicmacac  Nicmacaz \nTicmaca Ticmacac  Ticmacaz \nQuimaca Quimacac  Quimacaz \nTicmacah Ticmacaqueh  Ticmacazceh \nInquimacah Inquimacaqueh Inquimacazceh \nQuimacah Quimacaqueh  Quimacazceh \n \nB) Xicchihua tlamanextilli ica oni.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "consonante",
+    "english": "consonante-vocal.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "una",
+    "english": "c para singular o -queh para \nplural.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "agrega",
+    "english": "qui para singular y -queh para plural.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "neci.",
+    "english": "Para el tiempo presente singular se mantiene la raíz del verbo y para el plural se agrega una -h.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ltima",
+    "english": "vocal y la -c se convierte en -z, enseguida se agrega -qui para singular y -queh para plural, para el futuro su raíz verbal se agrega una -z para singular y -zceh para plural.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "amiqui.",
+    "english": "Para tiempo presente singular se mantiene la raíz del verbo y para el plural se agrega una -h.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "elimina",
+    "english": "qui y agregamos -c, enseguida se agrega -qui para singular y -queh para plural, para el futuro su raíz verbal se agrega una -z para singular y -zceh para plural.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tema.",
+    "english": "Para el tiempo presente singular se mantiene con la raíz del verbo y para el plural se agrega una -h.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "terminan",
+    "english": "m(a/i).",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "propositivo",
+    "english": "co (• Ü)indica una acción de allá hacia acá en tiempo pasado; y el propositivo -to (• Þ) indica una acción de aquí hacia allá en tiempo pasado.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "fue",
+    "english": "a correr en la escuela.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nica",
+    "english": "vendrá a comprar en mi casa.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "casa",
+    "english": "oni",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "casa.",
+    "english": "cua",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "comer.",
+    "english": "tlacua",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "bañar.",
+    "english": "maltia",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "xico.",
+    "english": "huica",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "escuela.",
+    "english": "motlaloa",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "paseo.",
+    "english": "paxaloa",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ellos",
+    "english": "ya van a jugar).",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ella",
+    "english": "ya va a jugar).",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "sufijo",
+    "english": "za Ejemplo: Niquittaz- Niquittazza (Ya lo voy a ver).",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ica",
+    "english": "ya, ce ica -za huan ce ica -ca.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nican",
+    "english": "eltoc mopapa.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tohhuantin",
+    "english": "tiyohuihya caltlamachtiloyan.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "campa",
+    "english": "nitequiti, titlacuah zancehco huanya cequinoqueh notequixpoyohuan.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ceyoc",
+    "english": "notequixpoh, quemmantzin nechcualilia tlen nechcahuia Catalina.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tlan",
+    "english": "ticnequi.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cuah.",
+    "english": "Ma axquemman hueli tiyohuih zancehco.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "por",
+    "english": "qué ¿canin?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tan",
+    "english": "C) Xiccuapa tlahtolpamitl ica nahuatl.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nde",
+    "english": "está el señor que está sembrando maíz?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ntos",
+    "english": "mazorcas de maíz hay en la imagen?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "hace",
+    "english": "el señor con el maiz sin hojas?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "xiyauh",
+    "english": "ichan Adela tictemoti cintli tlen petlayoh ma  mitznamaquilti.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "niahcicoya.",
+    "english": "Adela, nechillih ta zo noma ma yohui   tlaxipehuati.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tiomeh",
+    "english": "tiyazceh titlaxipehuatih.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "pa.",
+    "english": "Ernesto: Titlanquehya noahui.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "huenoh.",
+    "english": "Ernesto: Tzitoh, elquiya tiotlac.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quena.",
+    "english": "C) Xiquihcuilo tlen monequi ticchihuaz quemman titocaz.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "para",
+    "english": "singular y -tzitzin, para plural.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tlacatzin",
+    "english": "singular",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tlacatzitzin",
+    "english": "plural",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tepozcacalachtli",
+    "english": "B) alaxox  C) cihuatl ____________________ ________________ __________________ ____________________ ________________ __________________  B) El prefijo reverencial -pil indica respeto y es entendido como algo pequeño.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "reverencial",
+    "english": "pil indica respeto y es entendido como algo pequeño.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "piltlacatzin",
+    "english": "singular",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "piltlacatzitzin",
+    "english": "plural",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nopiltlacauh",
+    "english": "singular",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nopilxochihuan",
+    "english": "plural",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "aah",
+    "english": "ni topilpopochcon, xiconquixtiti tlicolli.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quicelquehya",
+    "english": "toteuccohhuan.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "noque",
+    "english": "na niquinmacaz atl ma momahtequican.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nopa",
+    "english": "tiotlac tiahciquih.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "titlaonizceh",
+    "english": "cuah.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "huallauh.",
+    "english": "nechca, no.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "canin",
+    "english": "tiyauh?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "timomalacachoz",
+    "english": "ica nemahtli.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "niahciti?",
+    "english": "icxitlan, no.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "teipanoc",
+    "english": "timoittazceh.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quimanextia",
+    "english": "ce canahya.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ximehuaya.",
+    "english": "Xinechcahuayohcuiti.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tiixtlehcoz",
+    "english": "aztah tiahciti tlapanico campa ohmaxalli.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "motequihuia",
+    "english": "co.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nechcatzin.",
+    "english": "Mochan-Caltlamachtiloyan zo Caltlamachtiloyan-Mochan",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "naman",
+    "english": "canin tiyaz?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tiixtemoz",
+    "english": "nican.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cualli",
+    "english": "xiyauh.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "eltoc",
+    "english": "Presente Eltoc    Imperfecto Eltoya  Eltoyah   \nFuturo Eltoz  Eltozceh   C) Oncah: hay, cosas en abundancia.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "esta",
+    "english": "afuera e tu casa?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "niyaz",
+    "english": "niquittati moztla.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "hueliz",
+    "english": "tihuallauh ce tlatoctzin?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "xinechilli.",
+    "english": "Daniel:   Macuah nicnequi niyaz Los Angeles huan axnicmati queniuhqui niahciti.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tlahuel",
+    "english": "huahca.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "titlanquehya.",
+    "english": "Naman monequi        tiyazceh cequinoc altepemeh titequititih.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "huacca",
+    "english": "axnelli timocuapoloz.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "motequixpoh",
+    "english": "Chantequitl",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "niquiza",
+    "english": "nochan huan teipan niixtemo quentzin.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "amatomin",
+    "english": "ahxilia  cahua  cohua  ipatiuh  namaca maca  patiyoh patla  pitzahua pitzahuac temoa tencahua tlacouhquetl tlahtlani tlamachihua tlanamacaquetl tlaxtlahua tomin A) Xicchihua tlamanextilli zo tlahtlaniliztli ica tlahtolli tlen huallauh huahcapan.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cahuitl.",
+    "english": "Ica tlenpano",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quetl",
+    "english": "Xiquitta tlamanextilli ica alaxox, cintli, amatl tlen ce acahya quinamaca.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tlatocaxtiliztli",
+    "english": "tl, tli, li, n, ø",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "imperfecto",
+    "english": "yaya zo -yayah",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tlen",
+    "english": "ticnequi timocohuiz?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cualli.",
+    "english": "Huacca xiyauh ne cacatlani.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "monequi",
+    "english": "xiyauh niman pampa tlan tiyaz tiotlac nochi cuatlacquetl quitlapehpenihtozcehya.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "melahuac",
+    "english": "b) axmelahuac 3.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "zan",
+    "english": "nican.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nacatl",
+    "english": "pitzotl, piyo, toroh",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "etl",
+    "english": "naman tonatiuh motequihuia royoh",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "noconeuh",
+    "english": "tlacohuati tianquiz: Erica huan Alan Erica: Pa, ¿timeuhquiya?",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "niquihcuiloh",
+    "english": "pan amatl tlen nochipa nicnemiltia.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ma.",
+    "english": "Nican eltoc ce quentzin motomin tlen mocauhqui.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ahui.",
+    "english": "Elvira: Piyali.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "macuah",
+    "english": "nicnequiyaya nichuicaz ceyoc ome mancuernoh chancacah.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tlanqui",
+    "english": "nitlanamaca.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "acecec",
+    "english": "ahhuiac atic  ayoh  cecec  celic chichic  chicauhtoc cococ  mihyotia nacayoh              pilhuehueyactzin piltolontzin poyec  tentzitzicaztic teteltic  tetzahuac   totonic  tzopelic xococ  xoxohuic  A) Huanya ce motequixpoh, xicnanquilican tlahtlaniliztli ica tlacualiztli huan tlaoniliztli tlen queniuhcatzan momachilia.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "nic.",
+    "english": "Tehtequi; mo, nic.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "inacayo.",
+    "english": "Tzoyonia, mo, nic. Tehtequi; mo, nic. Molonia; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "iztatl.",
+    "english": "Molonia; mo, nic. Mola zo Huatzania; mo, nic. Pahuaci; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic. Motequilia; mo, nic",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "cuaxilopahpatla.",
+    "english": "Tehtequi; mo, nic. Maneloa; mo, nic. Mola zo Huatzahuia; mo, nic. Piqui; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "chilli",
+    "english": "huahiyo, iztatl, cuaxilopahpatla.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "motzoyonia.",
+    "english": "Pahuaci; mo, nic. Ahana; mo, nic. Pitzinia; mo, nic. Mola zo Huatzania; mo, nic. Tzoyonia; mo, Tehtequi; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "chilnacatl.",
+    "english": "Pahuaci; mo, nic. Mola zo Huatzania; mo, nic. Chilhuia; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "ceboiz.",
+    "english": "Molonia; mo, nic. Mola zo Huatzania; mo, nic. Pahuaci; mo, nic. Tzoyonia; mo, nic. Tehtequi; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "aceyiteh.",
+    "english": "Tehtequi; mo, nic. Maneloa; mo, nic. Mola, huazania, tici; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "axxolehuiz.",
+    "english": "Pahuaci; mo, nic. Mola, Huatzania, tici; mo, ni, nic. Maneloa; mo, nic. Poyeltia; mo, nic. Machilia; mo, nic. Ilpia; mo, nic. Piqui; mo, nic",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "totomochtli",
+    "english": "huan iihtico quipiya tixtli tlamanelolli ica piletzin, iztatl, chilli huan mantecah.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "tictehtequih",
+    "english": "cuatlacquetl, n) ticpoyeltizceh, ticcuanelozceh, p) iztatl, t) chilli huan ceboiz, z) eyi zo nahui polatoh.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "axcanah",
+    "english": "cococ.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quena",
+    "english": "tlahuel ahhuiac.",
+    "source": "parallel_sentences"
+  },
+  {
+    "nahuatl": "quitechtihqueh",
+    "english": "macuilli torohmeh huan quincalaquito pan nonanan itlalhui.",
+    "source": "parallel_sentences"
+  }
+]

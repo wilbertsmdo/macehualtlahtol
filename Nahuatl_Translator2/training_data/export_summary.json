@@ -1,0 +1,11 @@
+{
+  "nah_es_count": 4260,
+  "nah_en_count": 282,
+  "total_pairs": 4542,
+  "min_bleu_filter": null,
+  "bleu_filter_enabled": false,
+  "exported_at": "2026-08-12T19:57:04.760867+00:00",
+  "skip_rows_removed": 52,
+  "skip_removal_note": "Removed 52 Classical Nahuatl rows (gold=SKIP/SALTAR) — not Modern Huasteca Nahuatl",
+  "updated_at": "2026-09-07T22:41:41.817855+00:00"
+}

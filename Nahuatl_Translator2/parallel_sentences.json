@@ -1,0 +1,1694 @@
+[
+  {
+    "nahuatl": "Nimitztlahpaloz.",
+    "english": "I greet you.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Greeting"
+  },
+  {
+    "nahuatl": "Piyali.",
+    "english": "Hello.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Greeting for non-indigenous person"
+  },
+  {
+    "nahuatl": "¿Hueliz nipano?",
+    "english": "May I come in?",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Asking permission to enter"
+  },
+  {
+    "nahuatl": "Quena. Xipano.",
+    "english": "Yes. Come in.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Permission granted"
+  },
+  {
+    "nahuatl": "Tlazcamati.",
+    "english": "Thank you.",
+    "source": "IDIEZ Unidad 1",
+    "notes": ""
+  },
+  {
+    "nahuatl": "Axtlen.",
+    "english": "You're welcome.",
+    "source": "IDIEZ Unidad 1",
+    "notes": ""
+  },
+  {
+    "nahuatl": "¿Queniuhqui moillia agua ica nahuatl?",
+    "english": "How do you say water in Nahuatl?",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Asking how to say something"
+  },
+  {
+    "nahuatl": "Moillia Atl.",
+    "english": "It is said Atl.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Answer: water"
+  },
+  {
+    "nahuatl": "Timoittazceh.",
+    "english": "We will see each other. / Goodbye.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Farewell"
+  },
+  {
+    "nahuatl": "Moztlayoc.",
+    "english": "See you tomorrow.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Farewell"
+  },
+  {
+    "nahuatl": "Teipayoc.",
+    "english": "See you afterwards.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Farewell"
+  },
+  {
+    "nahuatl": "Ya niyauh.",
+    "english": "I am going.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation"
+  },
+  {
+    "nahuatl": "Neca nionyauh.",
+    "english": "Now I am going.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation"
+  },
+  {
+    "nahuatl": "Neca tionyohuih.",
+    "english": "Now you are going.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation"
+  },
+  {
+    "nahuatl": "Tiyohuihya.",
+    "english": "We are going.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation"
+  },
+  {
+    "nahuatl": "Oncah.",
+    "english": "There is. / There are.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "oncah conjugation - present"
+  },
+  {
+    "nahuatl": "Oncac.",
+    "english": "There was. / There were.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "oncah conjugation - past"
+  },
+  {
+    "nahuatl": "Oncaz.",
+    "english": "There will be.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "oncah conjugation - future"
+  },
+  {
+    "nahuatl": "Niitztoc.",
+    "english": "I am. / I am here.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "itztoc conjugation - present (person)"
+  },
+  {
+    "nahuatl": "Tiitztoc.",
+    "english": "You are. / You are here.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "itztoc conjugation - present (person)"
+  },
+  {
+    "nahuatl": "Itztoc.",
+    "english": "He/She is. / He/She is here.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "itztoc conjugation - present (person)"
+  },
+  {
+    "nahuatl": "Tiitztoqueh.",
+    "english": "We are. / We are here.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "itztoc conjugation - present (person)"
+  },
+  {
+    "nahuatl": "Itztoqueh.",
+    "english": "They are. / They are here.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "itztoc conjugation - present (person)"
+  },
+  {
+    "nahuatl": "Eltoc.",
+    "english": "It is. (inanimate)",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "eltoc conjugation - present (thing)"
+  },
+  {
+    "nahuatl": "Eltoya.",
+    "english": "It was. (inanimate)",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "eltoc conjugation - past (thing)"
+  },
+  {
+    "nahuatl": "Eltoyah.",
+    "english": "They were. (inanimate)",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "eltoc conjugation - past (things)"
+  },
+  {
+    "nahuatl": "Niyaz.",
+    "english": "I will go.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation - future"
+  },
+  {
+    "nahuatl": "Tiyaz.",
+    "english": "You will go.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation - future"
+  },
+  {
+    "nahuatl": "Yaz.",
+    "english": "He/She will go.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation - future"
+  },
+  {
+    "nahuatl": "Tiyazceh.",
+    "english": "We will go.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation - future"
+  },
+  {
+    "nahuatl": "Inyazceh.",
+    "english": "They will go.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation - future"
+  },
+  {
+    "nahuatl": "Yazquia.",
+    "english": "He/She would go.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation - conditional"
+  },
+  {
+    "nahuatl": "Niyohuiyaya.",
+    "english": "I was going.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation - imperfect"
+  },
+  {
+    "nahuatl": "Yohuiyaya.",
+    "english": "He/She was going.",
+    "source": "IDIEZ N1 unidades 5-6",
+    "notes": "yauh conjugation - imperfect"
+  },
+  {
+    "nahuatl": "Nitequiti.",
+    "english": "I work.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Regular verb conjugation"
+  },
+  {
+    "nahuatl": "Titequiti.",
+    "english": "You work.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Regular verb conjugation"
+  },
+  {
+    "nahuatl": "Tequiti.",
+    "english": "He/She works.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Regular verb conjugation"
+  },
+  {
+    "nahuatl": "Titequitih.",
+    "english": "We work.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Regular verb conjugation"
+  },
+  {
+    "nahuatl": "Tequitih.",
+    "english": "They work.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Regular verb conjugation"
+  },
+  {
+    "nahuatl": "Nichoca.",
+    "english": "I cry.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Regular verb conjugation"
+  },
+  {
+    "nahuatl": "Timaltia.",
+    "english": "You bathe.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Regular verb conjugation"
+  },
+  {
+    "nahuatl": "Motlaloa.",
+    "english": "He/She runs.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Regular verb conjugation"
+  },
+  {
+    "nahuatl": "Ximoquetza.",
+    "english": "Stand up. (singular command)",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Imperative with xi-"
+  },
+  {
+    "nahuatl": "Ximoquetzacan.",
+    "english": "Stand up. (plural command)",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Imperative with xi-"
+  },
+  {
+    "nahuatl": "Xinehnemi.",
+    "english": "Walk. (singular command)",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Imperative with xi-"
+  },
+  {
+    "nahuatl": "Xinehnemican.",
+    "english": "Walk. (plural command)",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Imperative with xi-"
+  },
+  {
+    "nahuatl": "Ma nitlacua.",
+    "english": "Let me eat.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Imperative with ma-"
+  },
+  {
+    "nahuatl": "Ma tlacua.",
+    "english": "Let him/her eat.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Imperative with ma-"
+  },
+  {
+    "nahuatl": "Ma ticholocan.",
+    "english": "Let us run.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Imperative with ma-"
+  },
+  {
+    "nahuatl": "Tohhuantin titlamachtiah caltlamachtiloyan.",
+    "english": "We study at school.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Full sentence example"
+  },
+  {
+    "nahuatl": "¿Quezqui tlicolli nicpiya na?",
+    "english": "How many pencils do I have?",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Question with quezqui"
+  },
+  {
+    "nahuatl": "Ta ticpiya nahui tlicolli.",
+    "english": "You have four pencils.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Answer with number"
+  },
+  {
+    "nahuatl": "Na nicpiya ce tlicolli.",
+    "english": "I have one pencil.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Statement with number"
+  },
+  {
+    "nahuatl": "Ya quipiya chicome tlicolli.",
+    "english": "He/She has seven pencils.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Statement with number"
+  },
+  {
+    "nahuatl": "Tohhuantin ticpiyah chicome tlicolli.",
+    "english": "We have seven pencils.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Statement with number"
+  },
+  {
+    "nahuatl": "Nitlacatl.",
+    "english": "I am a person.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Equative statement"
+  },
+  {
+    "nahuatl": "Titlacatl.",
+    "english": "You are a person.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Equative statement"
+  },
+  {
+    "nahuatl": "Tlacatl.",
+    "english": "He/She is a person.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Equative statement"
+  },
+  {
+    "nahuatl": "Titlacameh.",
+    "english": "We are people.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Equative statement (plural)"
+  },
+  {
+    "nahuatl": "Tlacameh.",
+    "english": "They are people.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Equative statement (plural)"
+  },
+  {
+    "nahuatl": "Pan acomolli neci michimeh.",
+    "english": "At the well there are fish.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Existential statement"
+  },
+  {
+    "nahuatl": "Pan ce calli choca ce conetl.",
+    "english": "In a house a child cries.",
+    "source": "IDIEZ Unidad 1",
+    "notes": "Locative statement"
+  },
+  {
+    "nahuatl": "appearance",
+    "english": "size",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "altepemeh",
+    "english": "pueblos",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "histories",
+    "english": "especially annals",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "works",
+    "english": "songs and plays",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "students",
+    "english": "to participate in the learning and teaching of their language, and to participate in academic spaces in their language through the reading and analysis of texts written by their ancestors.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "length",
+    "english": "is not always marked in these lessons, but the IDIEZ monolingual dictionary Tlahtolxitlauhcayotl of Chicontepec Nahuatl (Veracruz), and the IDIEZ Modern Huastecan to English Vocabulary, mark long vowels with a macron or overbar, as in  ācatl, 'reed' or cuatōchin, 'rabbit'.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "see",
+    "english": "wahtl’, respectively.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "kah",
+    "english": "ki’ and ‘ko-pahl-li’.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "vowel",
+    "english": "length is not always marked in these lessons, but the IDIEZ monolingual dictionary Tlahtolxitlauhcayotl of Chicontepec Nahuatl (Veracruz), and the IDIEZ Modern Huastecan to English Vocabulary, mark long vowels with a macron or overbar, as in  ācatl, 'reed' or cuatōchin, 'rabbit'.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cihuatl",
+    "english": "‘woman’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "pronounced",
+    "english": "in English",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "caqui",
+    "english": "‘hear’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "copalli",
+    "english": "‘copal incense’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quen",
+    "english": "‘how’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quiza",
+    "english": "‘emerge’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "zampa",
+    "english": "‘again’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "zoquitl",
+    "english": "‘mud’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ehecatl",
+    "english": "'wind'",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ahahuilli",
+    "english": "'toy'",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ohtli",
+    "english": "‘road",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quichihuah",
+    "english": "‘they do it’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "digraphs",
+    "english": "two letters used together to represent a single sound",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "single",
+    "english": "syllable word, it is a voiced consonant, as in nochi ‘all, every’, quinamaca ‘she sells it’, and zan ‘only, just’.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "multi",
+    "english": "syllable word, it becomes neutralized and sounds like H, as in teipan ‘later’.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cal",
+    "english": "li), rhyming with the first two syllables of 'lol-li-pop'.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "second",
+    "english": "to-last) syllable of a Nahuatl word.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ridge",
+    "english": "the ridge behind the top front teeth",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tzictli",
+    "english": "'chewing gum'",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "chiucnahui",
+    "english": "‘nine’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quitzaucqueh",
+    "english": "‘they closed it’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "xochitl",
+    "english": "'flower'",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "llave",
+    "english": "'key'",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "calle",
+    "english": "'street'",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "calli",
+    "english": "'house'",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "separately",
+    "english": "cal-li",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "words",
+    "english": "with no accent",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "penultimate",
+    "english": "second-to-last",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nimitztlahpaloz",
+    "english": "tlacatl \ncihuatl \nUnit 1 Timoixmatizceh | We will meet each other \n1.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ways",
+    "english": "e.g.\nvisiting, meeting",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "gathering",
+    "english": "men to men only",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "wSOE",
+    "english": "Delia and Catalina",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nicpiya",
+    "english": "ce tlahtlaniliztli.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "moihcuiloa",
+    "english": "atl.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "choca",
+    "english": "tequiti   maltia   motlaloa nichoca  nitequiti  _____________ _____________ tichoca  _____________ timaltia  _____________ choca  _____________ _____________ _____________ tichocah  _____________ _____________ _____________ inchocah  _____________ _____________ _____________ chocah  _____________ _____________ motlaloah  E) See the example below and write five sentences using the new vocabulary provided.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "verbs",
+    "english": "verbs that do not have a specific object",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "suffix",
+    "english": "meh\tis\tadded.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "moquetza",
+    "english": "b) nehnemi c) huitoni d) mocehuia \nD) See the example below.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nehnemi",
+    "english": "Xinehnemi.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "huitoni",
+    "english": "Xihuitoni.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "mocehuia",
+    "english": "Ximocehui.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "plural",
+    "english": "see examples 4 below",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "maltia",
+    "english": "Ma nitlacua.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "choloa",
+    "english": "atli   huitoni     mihcuenia Ma nicholo.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tWPNDxKnBPE",
+    "english": "yonce   chicuace   mahtlactli huan ce      caxtolli huan ce  ce   chicome   mahtlactli huan ome      caxtolli huan ome  ome   chicueyi   mahtlactli huan eyi      caxtolli huan eyi  eyi   chiucnahui  mahtlactli huan nahui     caxtolli huan nahui  nahui   mahtlactli caxtolli       cempohualli  macuilli   Numbers:\t20\t–\t100\t\t20 cempohualli    40 ompohualli    60 epohualli    80 nauhpohualli    100 macuilpohualli  B) Complete the remaining examples.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ahuacatl",
+    "english": "camohtli cuahuitl mizton chichi tlicolli \nC) New vocabulary.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "amatl",
+    "english": "noamauh, moamauh, iamauh, toamahuan, inmoamahuan, ininamahuan 7.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "adding",
+    "english": "huan.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cihua",
+    "english": "tl amox-tli tlicol-li cuatoch(i)-n chichi \n Ta  Ti mo Ø, uh, hui Ya  Ø i  Tohhuantin  Ti to  Inmohhuantin  In inmo huan Inihhuantin  Ø inin         D) See examples 1 and 5 and complete the sequence for the remaining nouns.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "noun",
+    "english": "e.g., my book",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nopitzo",
+    "english": "‘my pig",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "mocihuauh",
+    "english": "‘your wife’",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nouns",
+    "english": "deities, people, and animals",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cafenctic",
+    "english": "yayahuic chichiltic achilcoz chichilticcoztic tenextic \nxoxoctic pilazulticatzin tzictic camohtic cuahuencho chipahuac \nalaxox chilli etl cuaxilotl tomatl calli cocho \ncafenctic \n10.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "pantalon",
+    "english": "cotomitl \nmomachtihquetl tlamachtihquetl tepahtihquetl tlapahquetl tlacualchiuhquetl \nB) See the images of pantalon and cotomitl2, then practice questions about clothes with a partner.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ending",
+    "english": "mitl.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "with",
+    "english": "your information.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "echcapantzin",
+    "english": "zancualli huahcapantic \n1.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "piltohtomactzin",
+    "english": "azacatic \nB) See the example for echcapantzin and complete the exercise for zancualli and\nhuahcapantic.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tzoncalli",
+    "english": "huehueyac tzoncalli cototztzin tzoncalli chihchinohtic \nMaribel Anna Bertha Pedro Tomas \n4.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "eating",
+    "english": "in general).",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "specific",
+    "english": "eating an orange vs. eating in general",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "amati.",
+    "english": "Nicamati, ticamati, ticamatih (ni-c-amati-Ø).",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ihxitia.",
+    "english": "Niquihxitia, tiquihxitia, tiquihxitiah (ti-qu-ihxitia-Ø).",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "huica.",
+    "english": "Quihuica, inquihuica, quihuicah (Ø-qui-huica-h).",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "amati",
+    "english": "pohua cua ihcuiloa nicamati  ________________ ________________ ________________ ticamati  ________________ ________________ ________________ quiamati ________________ ________________ ________________ ticamatih ________________ ________________ ________________ inquiamatih ________________ ________________ ________________ quiamatih ________________ ________________ ________________  B) See example 1 and based on the structure in the table above translate the remaining sentences into Nahuatl.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "third",
+    "english": "person singular (he, she or it) can be written c-, qu-, or qui-, depending on what precedes or follows it (according to Spanish orthography):  1.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "qui",
+    "english": "is used after the subject prefixes Ø- and in-, regardless of what follows.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "singular",
+    "english": "he, she or it",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ticamatih",
+    "english": "ni-c-amati-Ø",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tiquihxitiah",
+    "english": "ti-qu-ihxitia-Ø",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quihuicah",
+    "english": "Ø-qui-huica-h",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "school.",
+    "english": "itta",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "book.",
+    "english": "pohua",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "flower.",
+    "english": "amati",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "bed.",
+    "english": "ehua",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "class.",
+    "english": "amati",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "verbs.",
+    "english": "There are only four verbs in this class: mama, nahua, pa, cua.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tense",
+    "english": "tlen pano",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "either",
+    "english": "z for singular verbs  or -zceh for plural verbs.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "pohua",
+    "english": "Nicamati nitlapohuaz.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cua",
+    "english": "Nicamati  niccuaz mancoh.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "mahuiltia",
+    "english": "Ticamatih  timahuiltizceh.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ahqui",
+    "english": "Ticamatih  tiahquizceh.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tequiti",
+    "english": "Nicamati  nitequitiz.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "camati",
+    "english": "ni___________z.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quiamati",
+    "english": "maltiz ichan.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "aquixtia",
+    "english": "Axnicamati niaquixtiz.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tlachicuenia",
+    "english": "Axnicamati nitlachicueniz.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tici",
+    "english": "Axnicamati niticiz.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "huan",
+    "english": "ta?",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "pampa",
+    "english": "ohuih nopa tequitl.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tiquixmatizceh",
+    "english": "ce acahya | Family: Introducing someone  We will introduce someone such as our family members, friends, and acquaintances.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cualtitoc.",
+    "english": "Quemman ticnequiz ma nimitzpalehui ica                  ce motequiuh, xinechilli.",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "fried.",
+    "english": "notequixpoh/nohuampoh | My friend/classmates/co-worker",
+    "source": "Unidad 1 Nivel 1_Curso de Náhuatl_IDIEZ_Ingles.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tlachihualizt",
+    "english": "li 1 \nhuan 2…………………………….",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "pil",
+    "english": "y su uso con el prefijo \nposesivo……………………………59 \n3.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "clase",
+    "english": "de verbo 1 y 2 y en los tres tiempos: presente, pasado y \nfuturo.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ahci",
+    "english": "Para los verbos de clase 1 el tiempo presente singular se mantiene la raíz del verbo y para \nel plural se agrega una -h.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "maca",
+    "english": "Presente -h Pasado -c/queh Futuro -z/zceh \nNicmaca Nicmacac  Nicmacaz \nTicmaca Ticmacac  Ticmacaz \nQuimaca Quimacac  Quimacaz \nTicmacah Ticmacaqueh  Ticmacazceh \nInquimacah Inquimacaqueh Inquimacazceh \nQuimacah Quimacaqueh  Quimacazceh \n \nB) Xicchihua tlamanextilli ica oni.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "consonante",
+    "english": "consonante-vocal.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "una",
+    "english": "c para singular o -queh para \nplural.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "agrega",
+    "english": "qui para singular y -queh para plural.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "neci.",
+    "english": "Para el tiempo presente singular se mantiene la raíz del verbo y para el plural se agrega una -h.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ltima",
+    "english": "vocal y la -c se convierte en -z, enseguida se agrega -qui para singular y -queh para plural, para el futuro su raíz verbal se agrega una -z para singular y -zceh para plural.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "amiqui.",
+    "english": "Para tiempo presente singular se mantiene la raíz del verbo y para el plural se agrega una -h.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "elimina",
+    "english": "qui y agregamos -c, enseguida se agrega -qui para singular y -queh para plural, para el futuro su raíz verbal se agrega una -z para singular y -zceh para plural.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tema.",
+    "english": "Para el tiempo presente singular se mantiene con la raíz del verbo y para el plural se agrega una -h.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "terminan",
+    "english": "m(a/i).",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "propositivo",
+    "english": "co (• Ü)indica una acción de allá hacia acá en tiempo pasado; y el propositivo -to (• Þ) indica una acción de aquí hacia allá en tiempo pasado.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "fue",
+    "english": "a correr en la escuela.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nica",
+    "english": "vendrá a comprar en mi casa.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "casa",
+    "english": "oni",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "casa.",
+    "english": "cua",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "comer.",
+    "english": "tlacua",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "bañar.",
+    "english": "maltia",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "xico.",
+    "english": "huica",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "escuela.",
+    "english": "motlaloa",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "paseo.",
+    "english": "paxaloa",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ellos",
+    "english": "ya van a jugar).",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ella",
+    "english": "ya va a jugar).",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "sufijo",
+    "english": "za Ejemplo: Niquittaz- Niquittazza (Ya lo voy a ver).",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ica",
+    "english": "ya, ce ica -za huan ce ica -ca.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nican",
+    "english": "eltoc mopapa.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tohhuantin",
+    "english": "tiyohuihya caltlamachtiloyan.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "campa",
+    "english": "nitequiti, titlacuah zancehco huanya cequinoqueh notequixpoyohuan.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ceyoc",
+    "english": "notequixpoh, quemmantzin nechcualilia tlen nechcahuia Catalina.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tlan",
+    "english": "ticnequi.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cuah.",
+    "english": "Ma axquemman hueli tiyohuih zancehco.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "por",
+    "english": "qué ¿canin?",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tan",
+    "english": "C) Xiccuapa tlahtolpamitl ica nahuatl.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nde",
+    "english": "está el señor que está sembrando maíz?",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ntos",
+    "english": "mazorcas de maíz hay en la imagen?",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "hace",
+    "english": "el señor con el maiz sin hojas?",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "xiyauh",
+    "english": "ichan Adela tictemoti cintli tlen petlayoh ma  mitznamaquilti.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "niahcicoya.",
+    "english": "Adela, nechillih ta zo noma ma yohui   tlaxipehuati.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tiomeh",
+    "english": "tiyazceh titlaxipehuatih.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "pa.",
+    "english": "Ernesto: Titlanquehya noahui.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "huenoh.",
+    "english": "Ernesto: Tzitoh, elquiya tiotlac.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quena.",
+    "english": "C) Xiquihcuilo tlen monequi ticchihuaz quemman titocaz.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "para",
+    "english": "singular y -tzitzin, para plural.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tlacatzin",
+    "english": "singular",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tlacatzitzin",
+    "english": "plural",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tepozcacalachtli",
+    "english": "B) alaxox  C) cihuatl ____________________ ________________ __________________ ____________________ ________________ __________________  B) El prefijo reverencial -pil indica respeto y es entendido como algo pequeño.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "reverencial",
+    "english": "pil indica respeto y es entendido como algo pequeño.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "piltlacatzin",
+    "english": "singular",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "piltlacatzitzin",
+    "english": "plural",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nopiltlacauh",
+    "english": "singular",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nopilxochihuan",
+    "english": "plural",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "aah",
+    "english": "ni topilpopochcon, xiconquixtiti tlicolli.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quicelquehya",
+    "english": "toteuccohhuan.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "noque",
+    "english": "na niquinmacaz atl ma momahtequican.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nopa",
+    "english": "tiotlac tiahciquih.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "titlaonizceh",
+    "english": "cuah.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "huallauh.",
+    "english": "nechca, no.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "canin",
+    "english": "tiyauh?",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "timomalacachoz",
+    "english": "ica nemahtli.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "niahciti?",
+    "english": "icxitlan, no.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "teipanoc",
+    "english": "timoittazceh.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quimanextia",
+    "english": "ce canahya.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ximehuaya.",
+    "english": "Xinechcahuayohcuiti.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tiixtlehcoz",
+    "english": "aztah tiahciti tlapanico campa ohmaxalli.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "motequihuia",
+    "english": "co.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nechcatzin.",
+    "english": "Mochan-Caltlamachtiloyan zo Caltlamachtiloyan-Mochan",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "naman",
+    "english": "canin tiyaz?",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tiixtemoz",
+    "english": "nican.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cualli",
+    "english": "xiyauh.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "eltoc",
+    "english": "Presente Eltoc    Imperfecto Eltoya  Eltoyah   \nFuturo Eltoz  Eltozceh   C) Oncah: hay, cosas en abundancia.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "esta",
+    "english": "afuera e tu casa?",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "niyaz",
+    "english": "niquittati moztla.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "hueliz",
+    "english": "tihuallauh ce tlatoctzin?",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "xinechilli.",
+    "english": "Daniel:   Macuah nicnequi niyaz Los Angeles huan axnicmati queniuhqui niahciti.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tlahuel",
+    "english": "huahca.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "titlanquehya.",
+    "english": "Naman monequi        tiyazceh cequinoc altepemeh titequititih.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "huacca",
+    "english": "axnelli timocuapoloz.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "motequixpoh",
+    "english": "Chantequitl",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "niquiza",
+    "english": "nochan huan teipan niixtemo quentzin.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "amatomin",
+    "english": "ahxilia  cahua  cohua  ipatiuh  namaca maca  patiyoh patla  pitzahua pitzahuac temoa tencahua tlacouhquetl tlahtlani tlamachihua tlanamacaquetl tlaxtlahua tomin A) Xicchihua tlamanextilli zo tlahtlaniliztli ica tlahtolli tlen huallauh huahcapan.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cahuitl.",
+    "english": "Ica tlenpano",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quetl",
+    "english": "Xiquitta tlamanextilli ica alaxox, cintli, amatl tlen ce acahya quinamaca.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tlatocaxtiliztli",
+    "english": "tl, tli, li, n, ø",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "imperfecto",
+    "english": "yaya zo -yayah",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tlen",
+    "english": "ticnequi timocohuiz?",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cualli.",
+    "english": "Huacca xiyauh ne cacatlani.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "monequi",
+    "english": "xiyauh niman pampa tlan tiyaz tiotlac nochi cuatlacquetl quitlapehpenihtozcehya.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "melahuac",
+    "english": "b) axmelahuac 3.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "zan",
+    "english": "nican.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nacatl",
+    "english": "pitzotl, piyo, toroh",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "etl",
+    "english": "naman tonatiuh motequihuia royoh",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "noconeuh",
+    "english": "tlacohuati tianquiz: Erica huan Alan Erica: Pa, ¿timeuhquiya?",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "niquihcuiloh",
+    "english": "pan amatl tlen nochipa nicnemiltia.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ma.",
+    "english": "Nican eltoc ce quentzin motomin tlen mocauhqui.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ahui.",
+    "english": "Elvira: Piyali.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "macuah",
+    "english": "nicnequiyaya nichuicaz ceyoc ome mancuernoh chancacah.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tlanqui",
+    "english": "nitlanamaca.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "acecec",
+    "english": "ahhuiac atic  ayoh  cecec  celic chichic  chicauhtoc cococ  mihyotia nacayoh              pilhuehueyactzin piltolontzin poyec  tentzitzicaztic teteltic  tetzahuac   totonic  tzopelic xococ  xoxohuic  A) Huanya ce motequixpoh, xicnanquilican tlahtlaniliztli ica tlacualiztli huan tlaoniliztli tlen queniuhcatzan momachilia.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "nic.",
+    "english": "Tehtequi; mo, nic.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "inacayo.",
+    "english": "Tzoyonia, mo, nic. Tehtequi; mo, nic. Molonia; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "iztatl.",
+    "english": "Molonia; mo, nic. Mola zo Huatzania; mo, nic. Pahuaci; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic. Motequilia; mo, nic",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "cuaxilopahpatla.",
+    "english": "Tehtequi; mo, nic. Maneloa; mo, nic. Mola zo Huatzahuia; mo, nic. Piqui; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "chilli",
+    "english": "huahiyo, iztatl, cuaxilopahpatla.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "motzoyonia.",
+    "english": "Pahuaci; mo, nic. Ahana; mo, nic. Pitzinia; mo, nic. Mola zo Huatzania; mo, nic. Tzoyonia; mo, Tehtequi; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "chilnacatl.",
+    "english": "Pahuaci; mo, nic. Mola zo Huatzania; mo, nic. Chilhuia; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "ceboiz.",
+    "english": "Molonia; mo, nic. Mola zo Huatzania; mo, nic. Pahuaci; mo, nic. Tzoyonia; mo, nic. Tehtequi; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "aceyiteh.",
+    "english": "Tehtequi; mo, nic. Maneloa; mo, nic. Mola, huazania, tici; mo, nic. Machilia; mo, nic. Poyeltia; mo, nic.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "axxolehuiz.",
+    "english": "Pahuaci; mo, nic. Mola, Huatzania, tici; mo, ni, nic. Maneloa; mo, nic. Poyeltia; mo, nic. Machilia; mo, nic. Ilpia; mo, nic. Piqui; mo, nic",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "totomochtli",
+    "english": "huan iihtico quipiya tixtli tlamanelolli ica piletzin, iztatl, chilli huan mantecah.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "tictehtequih",
+    "english": "cuatlacquetl, n) ticpoyeltizceh, ticcuanelozceh, p) iztatl, t) chilli huan ceboiz, z) eyi zo nahui polatoh.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "axcanah",
+    "english": "cococ.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quena",
+    "english": "tlahuel ahhuiac.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  },
+  {
+    "nahuatl": "quitechtihqueh",
+    "english": "macuilli torohmeh huan quincalaquito pan nonanan itlalhui.",
+    "source": "N1_unidades_5-6.pdf",
+    "notes": ""
+  }
+]

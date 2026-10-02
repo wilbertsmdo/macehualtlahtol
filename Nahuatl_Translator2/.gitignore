@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+.DS_Store
+OUT FILES/output/*.pdf
+OUT FILES/output/.qwen/
+tmp_pdfs/

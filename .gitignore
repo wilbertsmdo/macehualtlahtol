@@ -1,0 +1,22 @@
+# Claude Code session state
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.bak
+.env
+
+# Project-specific
+Nahuatl_Translator2/tmp_pdfs/
+Nahuatl_Translator2/OUT FILES/output/*.pdf
+Nahuatl_Translator2/OUT FILES/output/.qwen/
+Mayaihcuilolliztli/output/
+Mayaihcuilolliztli/download_glyphs.log
+Mayaihcuilolliztli/*.log
+Tlazanilohni_app/full_audio.wav
+Tlazanilohni_app/output/
+
+# OS
+.DS_Store

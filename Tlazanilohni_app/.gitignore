@@ -1,0 +1,6 @@
+full_audio.wav
+output/
+__pycache__/
+*.pyc
+.env
+.claude/
