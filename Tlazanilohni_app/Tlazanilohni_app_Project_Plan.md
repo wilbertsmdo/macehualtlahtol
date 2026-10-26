@@ -639,3 +639,39 @@ lsh "tail -30 ~/Tlazanilohni_server/tts.log"
 - Crispin run command (for reference/resume): `cd $TPROJ && py3 audiobook_builder.py --sheet 1IcIhyhDsRCzcKBJqL0Z2ObUWz1T1Cwyto11zMko49Gg --tab Crispin --book "Nahuatl Tequitl Crispin"`
 - `cc→cj` rule applies universally — no edge cases found; `ticcaqui` (a common Nahuatl word) handled correctly
 - Drive folder ID needed before modifying audiobook_builder.py for upload
+
+---
+
+## Checkpoint — 2026-10-23
+
+### Work completed this session
+
+- **Converted new voice clip** — `AUD-20261022-WA0034.mp3` (2.12 MB, male Nahuatl speaker, received via Gmail) → `reference_voice2.wav` (22050 Hz mono, ~75s) using ffmpeg; saved to project folder
+- **`tts_server.py` — multi-voice support:** added `VOICES` dict mapping `"default"` and `"voice2"` to WAV paths on the laptop; `SynthRequest` now accepts `voices: List[str]` (default `["default"]`); server resolves names to paths and passes list to XTTS-v2 (which blends embeddings natively); added `GET /voices` endpoint to inspect available voices and their disk presence
+- **`main.py` — voice selection:** switched from raw `sys.argv` to `argparse`; added `--voice` flag (comma-separated, e.g. `--voice default,voice2`); voices list printed at runtime; `post_tts()` and `synthesize()` now accept and forward `voices`
+- **`audiobook_builder.py` — voice selection:** added `--voice` argparse argument; `voices` list parsed and threaded through `post_tts()`, `synthesize_sentence()`, and printed in the run header
+- **SCP to laptop skipped** — laptop was unreachable (SSH timeout); files ready locally, pending transfer when laptop is back online
+
+### Current state
+
+- Android-side code fully updated: `main.py`, `audiobook_builder.py`, `normalizer.py` all current
+- `reference_voice2.wav` exists in project folder, ready to copy to laptop
+- **Laptop server not yet updated** — still running old `tts_server.py` (single hardcoded voice); will reject `voices` field gracefully (ignored by old Pydantic model) but won't use `voice2`
+- Blending works by passing a list to XTTS-v2's `speaker_wav` parameter — no extra code needed on model side
+
+### Next steps
+
+1. **When laptop is back online:** `scp $TPROJ/tts_server.py $TPROJ/reference_voice2.wav wslinux@100.68.100.23:~/Tlazanilohni_server/`
+2. **Restart server:** `lsh "pkill -f uvicorn; cd ~/Tlazanilohni_server && source ~/nllb-env/bin/activate && nohup uvicorn tts_server:app --host 0.0.0.0 --port 8000 > ~/Tlazanilohni_server/tts.log 2>&1 &"`
+3. **Verify voices:** `curl http://100.68.100.23:8000/voices`
+4. **A/B test:** synthesize same sentence with `--voice default`, `--voice voice2`, `--voice default,voice2` and compare
+5. **Check Crispin_Carlos run** — confirm it completed or resume it; listen to first chapter
+6. **Google Drive upload** — user creates `Tlazanilohni Audiobooks` Drive folder, shares with service account; add upload step to `audiobook_builder.py`
+7. **More books** — run `audiobook_builder.py` as additional PDFs are transcribed into Google Sheets
+
+### Notes
+
+- `reference_voice2.wav` is ~75s long — XTTS-v2 truncates internally to ~30s for embedding extraction, so this is fine; no need to trim
+- Voice blending (`--voice default,voice2`) averages the XTTS-v2 speaker embeddings — useful for softening either voice or testing hybrids
+- The old "female voice" next step from prior sessions is now superseded by this male `voice2`; update naming if a female voice is added later (suggest `voice3` or a descriptive name)
+- scp command for reference: `scp $TPROJ/tts_server.py $TPROJ/reference_voice2.wav wslinux@100.68.100.23:~/Tlazanilohni_server/`

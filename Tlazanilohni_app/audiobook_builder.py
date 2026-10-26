@@ -59,12 +59,12 @@ def split_sentences(text: str) -> list:
     parts = re.split(r"(?<=[.?!])\s+", text.strip())
     return [p.strip() for p in parts if p.strip()]
 
-def post_tts(normalized: str) -> bytes | None:
+def post_tts(normalized: str, voices: list) -> bytes | None:
     for attempt in range(MAX_RETRIES):
         try:
             resp = requests.post(
                 f"{SERVER}/synthesize",
-                json={"text": normalized, "language": "es"},
+                json={"text": normalized, "language": "es", "voices": voices},
                 timeout=90,
             )
             resp.raise_for_status()
@@ -77,7 +77,7 @@ def post_tts(normalized: str) -> bytes | None:
                 print(f"    FAILED: {e}")
                 return None
 
-def synthesize_sentence(sentence: str) -> bytes | None:
+def synthesize_sentence(sentence: str, voices: list) -> bytes | None:
     norm = normalize(sentence)
     if not norm.strip():
         return None
@@ -86,7 +86,7 @@ def synthesize_sentence(sentence: str) -> bytes | None:
             if len(norm) > MAX_CHARS else [norm]
     chunks = []
     for part in parts:
-        wav = post_tts(part)
+        wav = post_tts(part, voices)
         if wav:
             chunks.append(wav)
     if not chunks:
@@ -160,7 +160,12 @@ def main():
     parser.add_argument("--sheet", required=True, help="Google Sheet ID")
     parser.add_argument("--tab",   required=True, help="Worksheet tab name")
     parser.add_argument("--book",  required=True, help="Book title (used for folder name)")
+    parser.add_argument(
+        "--voice", default="default",
+        help="Voice name(s), comma-separated: default | voice2 | default,voice2",
+    )
     args = parser.parse_args()
+    voices = [v.strip() for v in args.voice.split(",") if v.strip()]
 
     book_dir      = os.path.join(OUTPUT_BASE, safe_name(args.book))
     tmp_dir       = os.path.join(book_dir, "_tmp")
@@ -199,8 +204,9 @@ def main():
     rows     = ws.get_all_values()
     data     = rows[3:]   # skip 3-row header block
     total    = len(data)
-    print(f"\nBook:  {args.book}")
-    print(f"Sheet: {args.tab}  —  {total} data rows  (starting at {start_row})")
+    print(f"\nBook:   {args.book}")
+    print(f"Sheet:  {args.tab}  —  {total} data rows  (starting at {start_row})")
+    print(f"Voices: {voices}")
     print(f"Output: {book_dir}\n")
 
     # ── synthesis loop ───────────────────────────────────────────────────────
@@ -224,7 +230,7 @@ def main():
             continue
 
         print(f"{cell[:70]}{'...' if len(cell) > 70 else ''}")
-        wav_bytes = synthesize_sentence(cell)
+        wav_bytes = synthesize_sentence(cell, voices)
 
         if wav_bytes:
             tmp_path = os.path.join(tmp_dir, f"r{row_idx:05d}.wav")

@@ -5,8 +5,10 @@ REPLACEMENTS = [
     ("—|–", " "),
     # hyphen -> space (spoken as "menos" in Spanish TTS otherwise)
     ("-", " "),
+    # semicolon -> period so each clause becomes its own TTS chunk
+    (";", "."),
     # other punctuation that causes TTS artifacts
-    ('["""\\u00ab\\u00bb():;]', ""),
+    ('["""\\u00ab\\u00bb():]', ""),
 
     # cc -> cj  (geminate k: "nocca" -> "nocja", soft aspirated /kx/ not plain /k/)
     ("cc", "cj"),

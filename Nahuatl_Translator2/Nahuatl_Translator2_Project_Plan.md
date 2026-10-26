@@ -204,6 +204,60 @@ Data volume, not compute. Every translated sentence in the Crispin sheet
 
 ---
 
+## Checkpoint — 2026-10-26
+
+### Work completed this session
+
+**UV/MLCN — Maestría en Lengua y Cultura Nahuatl (Universidad Veracruzana)**
+- Fixed `/tmp/download_mlcn_subpages.py`: replaced removed `pypdf.PdfMerger` with `PdfWriter` + `PdfReader` loop
+- Downloaded all 18 Nahuatl-language subpages of `https://www.uv.mx/mlcn/` with Chromium headless (`--virtual-time-budget=6000`)
+- Merged into single PDF `row_MLCN_UV_all_subpages_merged.pdf` (8.2 MB); uploaded to Drive folder `1hfMOW4SE6gbSEffKKmX2hMqCSgf6i0qT`; new row appended to Sources sheet
+
+**Row 3 — Nava Vite / Figueroa-Saavedra paper**
+- User provided Drive link `https://drive.google.com/file/d/1N0UgPt_imHzgWyOpCIMICqQ2Othgfu4m/view`
+- Downloaded and verified via Drive API; pdfminer confirmed 85 strong Nahuatl hits — paper written almost entirely in Huasteca Nahuatl
+- Updated sheet column M (Drive link) and column N (`YES — strong`) for row 3
+- Updated `archive_progress.json` for row 3
+
+**Tlahtoa.org**
+- Domain is completely offline (DNS fails from Termux, PRoot, curl, and Chromium)
+- Wayback Machine has only one capture: a 404 robots.txt from 2018 — no article archive recoverable
+- Homepage was already archived in prior session (row 26 Drive link exists); individual articles cannot be retrieved
+
+**Estudios de Cultura Náhuatl (ECN) — UNAM IIH journal**
+- Confirmed all issues accessible via `curl -k -L` with SSL bypass (server SSL cert unverifiable)
+- Crawled all 25 issues (OJS IDs 5817–5871) to collect 423 article PDF URLs; saved to `/tmp/ecn_articles.json`
+- Sampled 6 articles across 2 issues — all confirmed YES — strong for Nahuatl (Classical)
+- Wrote and ran `/tmp/download_ecn.py`: downloaded all 423 PDFs (~0.3s delay per request), merged per issue, uploaded to Drive; progress saved to `ecn_progress.json`
+- Fixed upload timeouts (16–28 MB files): switched to `MediaFileUpload(resumable=True, chunksize=4MB)` in `/tmp/upload_ecn_remaining.py`
+- All 25 volumes uploaded (vol48–vol72, ~320 MB total); sheet row 44 updated (columns M and N)
+- Key file: `ecn_progress.json` in project root maps OJS issue ID → Drive `webViewLink` for all 25 volumes
+
+### Current state
+
+- **Sources sheet** (`11AEpdpY4cYNPoPn5ymZAP3SHygDoNzVPQpITQHxPrXM`): 66+ rows; columns M (Drive archive link) and N (Nahuatl fidelity verdict) filled for all rows except Tlahtoa.org (offline)
+- **Drive folder** (`1hfMOW4SE6gbSEffKKmX2hMqCSgf6i0qT`): contains all downloaded sources including 25 ECN volume bundles and the UV/MLCN merged subpage PDF
+- **ECN corpus**: 423 articles, Classical Nahuatl embedded throughout — useful for vocab and morphology, not modern Huasteca
+- **Top modern Huasteca sources confirmed archived**: Nava Vite (in-Nahuatl paper, 85 hits), arXiv papers, HuggingFace datasets, INALI PDF, AmericasNLP proceedings
+
+### Next steps
+
+1. **Crispin sheet col C** — highest-leverage data task: translate rows 489–4,036 from Nahuatl → Spanish to create training pairs (use Claude API; `few_shot_translate.py` ready, needs `ANTHROPIC_API_KEY`)
+2. **Text extraction pipeline** — extract raw Nahuatl text from the best archived sources (Nava Vite paper, ECN classical passages, Axolotl dataset) into a clean `.txt` corpus for tokenizer training
+3. **Check other multi-page sites** — nah.wikisource.org (individual texts), nah.wiktionary.org, INALI subpages; apply same merge-and-archive pattern used for UV/MLCN
+4. **NLLB-200 fine-tune setup** — once Crispin col C is ≥50% done, set up fine-tuning pipeline on `facebook/nllb-200-distilled-600M`
+5. **Morphological analyzer** (long term) — decompose verb forms before dictionary lookup
+
+### Notes
+
+- `curl -k -L` (skip SSL + follow redirects) is required for all ECN downloads; Termux Python `requests` cannot resolve `nahuatl.historicas.unam.mx` but curl can
+- ECN is Classical Nahuatl, not modern Huasteca — useful for morphological patterns and vocabulary but not directly for the EN→Huasteca translation target
+- Tlahtoa.org appears permanently defunct; row 26 Drive archive is just the DNS-error page — mark as N/A
+- `ecn_progress.json` in project root must be preserved; it prevents re-downloading all 423 articles if the script is re-run
+- Download scripts for ECN and UV/MLCN are in `/tmp/` — not committed; recreatable from this checkpoint if needed
+
+---
+
 ## Reference documents
 | File | Contents |
 |------|---------|
@@ -2292,3 +2346,208 @@ The status output shows all tailnet nodes — look for `offline` next to the tab
 - The tablet pattern for new scripts: pre-create sheets in browser, share with SA, hardcode IDs — avoids all quota issues
 - `transcribe_progress.json` records completed docs; delete it to force a full re-run; individual docs can be re-run with `--doc SUBSTR` flag
 - Zapoteco 2019 English parallel extraction is a future enhancement (facing-page translations)
+
+---
+
+## Checkpoint — 2026-10-23
+
+### Work completed this session
+
+- **Session was research and planning only — no code written or committed**
+- **Ran `/catchup`** — rebuilt full project context; confirmed D4 (NLLB fine-tune) status is unknown (last known: running in tmux `d4` on laptop as of 2026-08-13); D5 eval script is written and waiting; 10 new Nahuatl sheets created with col B but not yet translated (col J pending)
+- **Researched Tachiwin.org** — Mexican nonprofit building AI infrastructure for all 68 indigenous languages of Mexico (~360 dialects). Their tools: Tiyat (LLM), language identifier (audio → 68 languages), OCR 1.5, Totonac speech recognition, translation models, open datasets. Won the ERNIE AI Developer Challenge.
+- **Deep-dived Tiyat project** (`tachiwin.org/proyectos/tiyat`):
+  - First foundational LLM-nano model trained from scratch for Mexico's indigenous languages
+  - Architecture: decoder-only Transformer, ~184M parameters, 12 blocks, 768-dim embeddings, 24 attention heads, 918-token context, **64,000-token vocabulary**
+  - Training data: ~300M tokens — 70% indigenous languages, 7.5% Spanish, 7.5% English, 15% code
+  - Framework: JAX/Flax (not PyTorch)
+  - Custom tokenizer: `tachiwin/tokenizer_64k` (HuggingFace)
+  - Function: autocompletion / next-token prediction (general language model, not a translation tool per se)
+  - Fully open: weights, code, tokenizer, training notebooks on HuggingFace (`tachiwin/tiyat_alpha_arch1`) and GitHub (`tachiwin/tiyat_tutorial`)
+  - Live demo: `huggingface.co/spaces/ljcamargo/tiyat-nano`
+
+- **Full compare and contrast: Tachiwin/Tiyat vs Nahuatl Translator 2:**
+
+  | Dimension | Tachiwin / Tiyat | Nahuatl Translator 2 |
+  |---|---|---|
+  | Language scope | 68 Mexican indigenous languages | 1 dialect: Huasteca Nahuatl (IDIEZ/Chicontepec) |
+  | Core task | General language generation (autocompletion) | Translation: NAH↔ES, EN→NAH |
+  | Model type | Decoder-only (GPT-style) | Seq2seq (NLLB-200) + instruction-following (Claude API) |
+  | Training approach | From scratch, custom tokenizer | Fine-tune of pre-trained NLLB-200-distilled-600M |
+  | Parameters | ~184M | ~600M (NLLB) + ~100B+ (Claude at runtime) |
+  | Training data volume | ~300M tokens | ~4,594 sentence pairs |
+  | Dictionary grounding | Corpus-only | IDIEZ (6,345 EN→NAH) + Sullivan 2016 (9,782 NAH→NAH) + human glossary |
+  | In-context rules | None | 5,602 auto-derived rules injected per translation |
+  | Self-improving loop | No | Yes — `translate_and_learn.py` extracts new rules each batch |
+  | Custom tokenizer | Yes — built for indigenous phonology | No — NLLB's multilingual tokenizer (Nahuatl not one of its 200 languages) |
+  | Runtime cost | Free (self-hosted) | ~$0.00002–0.0001/sentence (Claude API) |
+  | Open source | Fully open | Private repo |
+  | Morphological analysis | Not mentioned | `morphology.py` — decomposes agglutinated verb forms |
+
+  **Key strategic contrast:** Tachiwin = breadth (infrastructure for 68 languages). We = depth (dialect-specific translation pipeline with layered lexical resources). Complementary, not competitive. **Biggest thing they have that we don't:** custom tokenizer trained on indigenous language data. **Biggest things we have that they don't:** dialect-specific lexical grounding (IDIEZ + Sullivan), in-context rule injection, self-improving learning loop, morphological decomposer.
+
+- **Identified tokenizer comparison as actionable next step:**
+  - NLLB's tokenizer was trained on 200 languages; Nahuatl is NOT one of them → likely splits agglutinated Nahuatl words into arbitrary byte fragments (high fertility, low semantic alignment)
+  - Tiyat's tokenizer (`tachiwin/tokenizer_64k`) was trained on 70% indigenous language data → should produce more meaningful subword units for Nahuatl
+  - **Why it matters for us:** NLLB fine-tune quality depends on how cleanly tokenized the training signal is; if `nitlatequitiz` becomes 8 single-character tokens, model learning degrades significantly
+  - **Four comparison metrics:** fertility (tokens/word), single-token coverage, unknown/fallback rate, morpheme boundary alignment
+
+- **Designed `tokenizer_compare.py`** (not yet written to file — code in this checkpoint):
+  - Loads both tokenizers via `AutoTokenizer.from_pretrained()`
+  - Tests on 200 Nahuatl sentences from `training_data/nah_es_pairs.json`
+  - Inspects 10 morphologically interesting words against `morphology.py` known decompositions
+  - Reports all four metrics + prints side-by-side token splits for visual inspection
+  - Run on laptop (`nllb-env`) — no GPU needed, pure tokenizer comparison
+
+### Current state
+
+- **Research complete:** Tachiwin/Tiyat fully documented and compared. Tiyat tokenizer repo identified: `tachiwin/tokenizer_64k` on HuggingFace. No code changes.
+- **D4 status unknown** — tmux session `d4` on laptop was last seen running NLLB fine-tune (2026-08-13); outcome not confirmed this session. Check SSH before any laptop work.
+- **10 new Nahuatl document sheets** — col B complete (Nahuatl text), col J (NLLB translation) still empty (requires `--skip-nllb` to be removed and GPU run)
+- **Human review backlog (A1)** — ~2,767 `real_error` rows in Deltas tabs of Crispin_Carlos and Eduardo sheets; 0 human-verified rules remains the biggest quality gap
+- **`tokenizer_compare.py`** — designed but not written to disk yet
+
+### Next steps
+
+1. **Write `tokenizer_compare.py` to disk on laptop** — copy script from this checkpoint into the repo, then run:
+   ```bash
+   ssh wslinux@100.68.100.23
+   source ~/nllb-env/bin/activate
+   cd ~/WS_Qwen_Projects_Windows/Nahuatl_Translator/Nahuatl_Translator
+   pip install sentencepiece   # if not already installed
+   # write tokenizer_compare.py (see Notes below for full script)
+   python3 tokenizer_compare.py 2>&1 | tee tokenizer_compare.log
+   ```
+
+2. **Read tokenizer results and decide path:**
+   - Fertility gap < 10% → NLLB tokenizer adequate; stay the course with D4
+   - Fertility gap 10–30% → note limitation; consider building custom SentencePiece model on our corpus later
+   - Fertility gap > 30% → consider fine-tuning Tiyat (decoder-only conditional generation) as alternative to NLLB
+
+3. **Check D4 status** — `tmux attach -t d4` on laptop; if training completed, copy `service_account.json` and run D5 eval:
+   ```bash
+   scp /storage/self/primary/PY_Projects/Financial_Analysis_App/python/service_account.json wslinux@100.68.100.23:~/service_account.json
+   python3 eval_nllb_d5.py 2>&1 | tee d5_eval.log
+   ```
+
+4. **Fill col J (NLLB translations) for 10 new sheets** — on laptop with `nllb-env` active, delete `transcribe_progress.json` and re-run `python3 transcribe_all_docs.py` (without `--skip-nllb`)
+
+5. **Human review (A1)** — review `real_error` rows in Crispin_Carlos + Eduardo Deltas tabs; add corrections to col I; this is the highest-leverage quality task (0 human-verified rules → downstream BLEU improvement)
+
+6. **After A1**: run `extract_rules.py` (A2) to merge col I → `translation_rules.json`; re-run translation on rows 4–488 (B1) to measure BLEU lift
+
+7. **D6 fine-tune** — once A1 corrections are in and col J is filled for new sheets, build updated training set and fine-tune NLLB again
+
+### Notes
+
+#### `tokenizer_compare.py` — full script (copy to laptop)
+
+```python
+"""
+tokenizer_compare.py — Tiyat (tachiwin/tokenizer_64k) vs NLLB-200 tokenizer on Huasteca Nahuatl.
+Run on laptop: source ~/nllb-env/bin/activate && python3 tokenizer_compare.py
+"""
+from transformers import AutoTokenizer
+import json
+
+print("Loading Tiyat tokenizer (tachiwin/tokenizer_64k)...")
+tok_tiyat = AutoTokenizer.from_pretrained("tachiwin/tokenizer_64k", trust_remote_code=True)
+
+print("Loading NLLB-200 tokenizer...")
+tok_nllb = AutoTokenizer.from_pretrained("facebook/nllb-200-distilled-600M", src_lang="nah_Latn")
+
+with open("training_data/nah_es_pairs.json") as f:
+    pairs = json.load(f)
+sentences = [p["nahuatl"] for p in pairs[:200] if p.get("nahuatl")]
+
+# Morphologically interesting words — known decompositions from morphology.py
+test_words = [
+    "nitlatequitiz",        # ni-tla-tequiti-z
+    "niquintalazcamatilia",  # ni-quin-tlazcamati-lia
+    "timochihuazqueh",      # ti-mo-chihua-z-queh
+    "niquimittaz",          # ni-qui-mitta-z
+    "tlatequipanoa",        # tla-tequipano-a
+    "mochihuaz",            # mo-chihua-z
+    "quinamiqui",           # qui-namiqui
+    "nicnequi",             # nic-nequi
+    "tlahtoa",              # tlahtoa
+    "tihuallahqueh",        # ti-hual-lahqueh
+]
+
+def fertility(tok, texts):
+    t, w = 0, 0
+    for s in texts:
+        t += len(tok.tokenize(s)); w += len(s.split())
+    return t / w if w else 0
+
+def single_token_rate(tok, words):
+    return sum(1 for w in words if len(tok.tokenize(w)) == 1) / len(words)
+
+def unk_rate(tok, texts):
+    uid = tok.unk_token_id
+    if uid is None: return 0.0
+    total, unk = 0, 0
+    for s in texts:
+        ids = tok.encode(s); total += len(ids); unk += ids.count(uid)
+    return unk / total if total else 0
+
+all_words = [w for s in sentences for w in s.split()]
+
+print(f"\n=== FERTILITY (tokens/word) — lower is better ===")
+ft, fn = fertility(tok_tiyat, sentences), fertility(tok_nllb, sentences)
+print(f"  Tiyat:    {ft:.3f}")
+print(f"  NLLB-200: {fn:.3f}  ({fn/ft:.1f}x more tokens)" if ft else "")
+
+print(f"\n=== SINGLE-TOKEN COVERAGE — higher is better ===")
+st, sn = single_token_rate(tok_tiyat, all_words), single_token_rate(tok_nllb, all_words)
+print(f"  Tiyat:    {st:.1%}")
+print(f"  NLLB-200: {sn:.1%}")
+
+print(f"\n=== UNKNOWN TOKEN RATE — lower is better ===")
+ut, un = unk_rate(tok_tiyat, sentences), unk_rate(tok_nllb, sentences)
+print(f"  Tiyat:    {ut:.1%}")
+print(f"  NLLB-200: {un:.1%}")
+
+print(f"\n=== MORPHEME BOUNDARY INSPECTION ===")
+print(f"{'Word':<30} {'Tiyat':<45} NLLB-200")
+print("─" * 110)
+for word in test_words:
+    t, n = tok_tiyat.tokenize(word), tok_nllb.tokenize(word)
+    print(f"{word:<30} {str(t):<45} {str(n)}")
+
+print(f"\n=== SENTENCE EXAMPLES (first 3) ===")
+for sent in sentences[:3]:
+    t, n = tok_tiyat.tokenize(sent), tok_nllb.tokenize(sent)
+    print(f"\n  Source : {sent}")
+    print(f"  Tiyat  ({len(t):2d}): {' | '.join(t)}")
+    print(f"  NLLB   ({len(n):2d}): {' | '.join(n)}")
+```
+
+#### Decision table after running the script
+
+| Fertility gap (NLLB vs Tiyat) | Action |
+|---|---|
+| < 10% | NLLB tokenizer is adequate — proceed with D4 as planned |
+| 10–30% | Note limitation; optionally build a custom SentencePiece on our corpus after D6 |
+| > 30% | Seriously evaluate fine-tuning Tiyat instead of NLLB for next training round |
+
+#### Optional: build our own SentencePiece tokenizer (dialect-specific)
+If results show NLLB tokenizer is poor, we can train a 16K-32K vocab SentencePiece model on just our Huasteca Nahuatl corpus (Crispin + Eduardo col B, ~35,000 sentences). Takes ~5 min CPU time. Would be more dialect-specific than even Tiyat's. Command:
+```python
+import sentencepiece as spm
+spm.SentencePieceTrainer.train(
+    input="nahuatl_corpus.txt",  # one sentence per line from col B
+    model_prefix="nah_huasteca_spm",
+    vocab_size=16000,
+    character_coverage=0.9999,
+    model_type="bpe",
+)
+```
+
+#### Tachiwin resources for future reference
+- HuggingFace org: `huggingface.co/tachiwin`
+- Model: `tachiwin/tiyat_alpha_arch1`
+- Tokenizer: `tachiwin/tokenizer_64k`
+- Training tutorial: `github.com/tachiwin/tiyat_tutorial`
+- Live demo: `huggingface.co/spaces/ljcamargo/tiyat-nano`
+- Website: `tachiwin.org`
