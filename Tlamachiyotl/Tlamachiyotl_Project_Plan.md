@@ -406,3 +406,80 @@ Agents course study project. Working through an AI agents course (originally usi
 - **Nations Royalty**: world's first majority-Indigenous mining royalty company (Nisga'a Nation + Frank Giustra, 2024). Pools 400+ individual IBAs. Model for Mexico adaptation.
 - **Seismic annotation**: $2.5B market (2024), 7.1% CAGR. Same annotation skillset as Ce-stage academic text work. Scale AI and Appen already serve oil and gas clients.
 - **Scripts this session** (temp, `/tmp/`): `insert_appendix_n.py`, inline TOC update (run via heredoc)
+
+---
+## Checkpoint — 2026-11-14
+
+### Work completed this session
+- Brainstormed Tlazohcamati — a Nahuatl-language crypto remittance app targeting Huasteca immigrants sending money from the US to Mexico; proposed as the right first Ce-stage project for the academy
+- Identified the core thesis: wrap existing licensed rails (Bitso Business + Dwolla/Stripe Treasury) rather than applying for a money transmitter license; app never touches user funds
+- Ran deep web research across three risk areas:
+  - **Rail access**: confirmed Strike is wrong rail (Lightning-only, approval-gated, no fiat-out); Bitso Business is correct primary rail ($80B+ TPV, US→Mexico SPEI, no Mexican license required for partner); MoneyGram+Stellar Ramps API as rural cash-pickup backup
+  - **US regulatory path**: full 49-state MTL = $200K–$500K + $1M+/year bonds + 18–36 months; BaaS authorized agent model (Dwolla/Stripe Treasury umbrella) requires only $30K–$80K/year compliance + KYC/AML + Dodd-Frank §1073 disclosures; Florida and DC are flagged states (no statutory agent-of-payee exemption)
+  - **Market and adoption**: Mexico remittances $61.8B (2025), Hidalgo $864M (5.5% of state GDP); WU cash pickup fee 4–5.6% vs <1% crypto rail; community trust model validated by Félix (175K→400K users in 12 months on referrals), Sendwave (66% CAC reduction via boots-on-ground), YouSend ($1M+ before public launch); OXXO payout via dLocal Payouts V3 or Digital@FEMSA
+- Inserted **APPENDIX O** into the Google Doc: 13,662 chars, 10 H3 sections, H2 navy + H3 teal formatting applied, TOC entry added after APPENDIX N and linked to headingId `h.nc07dy7hc43q`
+- Fixed a repeated `get_doc()` timeout issue on the large document (260K+ index chars) by switching from default httplib2 to `google_auth_httplib2.AuthorizedHttp` with 300-second timeout
+
+### Current state
+- Google Doc now has 15 appendices (A–O), all in the TOC with working hyperlinks
+- APPENDIX O covers: business thesis, market size/fee gap, wrap architecture, regulatory path, Nahuatl UX moat, revenue model/unit economics, why first for Huasteca, Ce/Ome/Yei arc, risks/mitigations, priority actions 2026–2027
+- The Tlazohcamati concept is fully documented and research-backed; it is now the leading Ce-stage revenue candidate ahead of digital annotation and certification exam
+- MVP path defined: WhatsApp bot on Bitso Business API, buildable in 4–6 weeks, no MTL needed
+
+### Next steps
+1. Contact Bitso Business (business.bitso.com) — request sandbox API access and begin KYB process
+2. Contact Dwolla (NMI) or Stripe Treasury — request Authorized Agent Agreement template
+3. Hire fintech compliance consultant — $5K–$15K for initial legal review (agent structure, §1073, FL/DC decision)
+4. Build WhatsApp MVP — Bitso sandbox → production, WhatsApp Business API, Nahuatl strings (4–6 weeks)
+5. Activate first 100 users via academy families and New York Hidalguense HTA network
+6. Draft 8 warm-intro emails (Mitch Resnick, Fernando Reimers, SEO, DRCLAS, Fundación México en Harvard, 42 Foundation, IAF, UNESCO)
+7. Contact IDIEZ (Zacatecas) re: Nahuatl monolingual pedagogy partnership + teacher training Step 0
+8. Contact Hebrew University via alumni network — cohort agreement for Huasteca students
+9. AC incorporation and ground-person hire (Appendix B items)
+
+### Notes
+- **Strike is not the rail**: its API is Lightning/Bitcoin-native and requires a written Aggregator Agreement for any fiat-out remittance use; Bitso Business is the correct partner
+- **BaaS compliance cost**: $30K–$80K/year for a compliance consultant under the authorized agent model — budget this into Ce-stage projections; it comes out of the $50K/year revenue baseline leaving ~$20K net
+- **OXXO payout is phase 2**: launch with SPEI delivery only; dLocal Payouts V3 requires a separate commercial agreement (2–6 week KYB). Do not block MVP on OXXO
+- **Large-doc timeout fix**: for scripts that need multiple `get_doc()` calls on this document, always use `google_auth_httplib2.AuthorizedHttp(creds, http=httplib2.Http(timeout=300))` — the default timeout is insufficient at 330K+ index positions
+- **Scripts this session** (temp, `/tmp/`): `insert_appendix_o.py`, `fix_toc_o.py`
+
+---
+## Checkpoint — 2026-11-17
+
+### Work completed this session
+- Arrived on the ground in Huejutla de Reyes and Chicontepec — first field visit to both sites
+- Ran deep web research on the full school landscape and indigenous/Nahuatl organizations across both municipalities
+- Produced a structured field visit plan covering 10 priority stops in Huejutla and 7 in Chicontepec, with addresses, phone numbers, contacts, and what to ask at each stop
+- Corrected a prior error in the project plan: **XEJAM is not in Huejutla** (it is INPI's "La Voz de la Costa Chica" in Tlapa de Comonfort, Oaxaca). Correct Huasteca stations: **XEHGO AM 1010** (state-run, Huejutla, Nahuatl programming) and **XEANT AM 770** (INPI, Tancanhuitz SLP, covers entire Huasteca in Nahuatl/Tének/Pame)
+- Mapped the indigenous school network: 43+ DGEI primarias in Huejutla, 72+ in Chicontepec; CONAFE Región 12 covers Huejutla; multiple telesecundaria networks in both municipalities
+- Identified CCPI-INPI contacts: Maximino Tolentino Hernández (Huejutla, (789) 896 02 95) and Domingo Morales Bautista (Chicontepec, (228) 812 75 85 ext. 2130) — both are first-stop gatekeepers for community introductions
+- Identified Omaxal A.C. / Comunidad Tochan (Huautla, ~30 min from Huejutla) as the most relevant Nahuatl language org: runs classes, children's writing contests, works with CONAFE — contact Octavio Domínguez Rosas, kxokoyotsi@gmail.com
+- Identified UVI Sede Huasteca (Ixhuatlán de Madero, 60-80 km from Chicontepec) as the university most directly relevant to Nahuatl instruction: trains community development professionals with a Lenguas orientation
+
+### Current state
+- Founder is physically on the ground in both sites for the first time
+- Full field-visit plan prepared with specific contacts, addresses, and conversation guides for each institution
+- Prior project plan listed XEJAM incorrectly — this checkpoint documents the correction
+- No new code or doc changes this session; this was a research and logistics session
+
+### Next steps
+1. Visit CCPI-INPI Huejutla (Av. Ejército Nacional s/n, Col. Aviación Civil) — ask Maximino Tolentino Hernández for DGEI school roster, Nahuatl promotores contacts, CONAFE coordinator
+2. Visit CCPI-INPI Chicontepec (Barrio Mexcatla) — ask Domingo Morales Bautista for same
+3. Visit Casa de la Cultura Huejutla (Col. Jacarandas, (789) 896 15 15) — connect with Nahuatl workshop coordinator
+4. Visit Radio XEHGO (Blvd. Adolfo López Mateos, (789) 896 06 21) — identify Nahuatl journalists as community network connectors
+5. Contact Omaxal / Comunidad Tochan — Octavio Domínguez Rosas, kxokoyotsi@gmail.com — explore curriculum and teacher-candidate collaboration
+6. Visit Supervisión de Educación Indígena Zona in both municipalities — get current school rosters and prioritized community list
+7. Identify 2–3 DGEI primarias to visit in rural Nahuatl-speaking communities (prioritize high monolingual enrollment)
+8. Contact UVI Sede Huasteca (uvihuasteca@uv.mx) re: partnership, alumni contacts in Chicontepec communities
+9. After field visits: document findings and decide which schools/organizations to pursue as formal academy partners
+10. Continue Tlazohcamati MVP (Bitso Business sandbox, compliance consultant) in parallel
+
+### Notes
+- **Field visit priority order in both cities:** CCPI-INPI first (single best gateway), then education supervisor, then casa de cultura, then bachillerato/university
+- **CONAFE Región 12 Huejutla:** no direct phone found; reach them via CCPI-INPI or the Presidencia Municipal
+- **CONAFE Chicontepec:** contact through CONAFE Delegación Veracruz (Xalapa) or via CCPI-INPI Chicontepec
+- **UVI Sede Huasteca** is in Ixhuatlán de Madero (~60-80 km from Chicontepec) — not in Chicontepec itself; plan a separate trip or contact by email first
+- **University Huasteca Veracruzana (UHV):** only university physically in Chicontepec town; has Pedagogía/Educación licenciaturas — worth a quick walk-in visit while in town
+- **DIF Municipal** in both cities is inside or next to the Palacio Municipal — easiest walk-in while doing any other errands
+- **Gaps to fill on the ground:** current CONAFE Chicontepec coordinator; any INALI-certified language promoters working locally; church-based Nahuatl catechism programs (ask at the parish)
